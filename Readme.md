@@ -2,7 +2,7 @@
 
 A modern web-based Password Strength Checker built using HTML, CSS, and JavaScript.
 
-**Live** [click here] (https://lavanya-cys.github.io/password-checker-project/)
+**Live** [click here](https://lavanya-cys.github.io/password-checker-project/)
 
 ## 🚀 Features
 - Real-time password analysis
