@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    
+    <title>Lavanya Password Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+    <source src="bg.mp4" type="video/mp4">
+</video>
+
+<div class="container">
+    <img src="logo.png" width="280" id="logo-cover">
+    <h2>🔐 Password Strength Checker</h2>
+
+    <div class="input-box">
+        <button onclick="generatePassword()">Generate Strong Password</button>
+      
+        <input type="password" id="password" placeholder="Enter password">
+        <span id="toggle">👁️</span>
+    </div>
+
+    <div class="bar">
+        <div id="strength-bar"></div>
+    </div>
+
+    <p id="strength-text"></p>
+    <p id="percent"></p>
+    <p id="suggestions"></p>
+    <p id="crack-time"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
